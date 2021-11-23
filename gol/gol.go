@@ -12,7 +12,7 @@ type Params struct {
 func Run(p Params, events chan<- Event, keyPresses <-chan rune) {
 
 	//	TODO: Put the missing channels in here.
-
+	/////////iofilename := make(chan string)
 	ioCommand := make(chan ioCommand)
 	ioIdle := make(chan bool)
 
